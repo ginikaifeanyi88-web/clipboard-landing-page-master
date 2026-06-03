@@ -61,14 +61,39 @@
 
 #iOSButton {
     background-color: hsl(171, 66%, 44%);
+    cursor: pointer;
     box-shadow: 5px 10px 10px hsl(171, 74%, 85%);
+    border-bottom: 3px solid  hsl(172, 67%, 58%);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-style: outset;
 }
 
 #macButton {
     background-color: hsl(233, 100%, 69%);
+    cursor: pointer;
+    box-shadow: 5px 10px 10px hsl(233, 61%, 86%);
+    border-bottom: 3px solid hsl(233, 84%, 75%);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-style: outset;
 }
+
 
 .section2 {
     margin-top: 140px;
 
+}
+
+.section2 .container {
+     display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 26px;
+}
+
+.section2 .container > h2 {
+    font-size: 26px;
 }
