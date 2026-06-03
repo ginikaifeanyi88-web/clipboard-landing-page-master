@@ -1,2 +1,74 @@
+    @import url( 'https://fonts.googleapis.com/css?family=Bai Jamjuree');
     .attribution { font-size: 0.6875rem; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    body, h1, p, ul, li  {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Bai Jamjuree";
+    }
+
+
+
+    header .logo_container {
+        background-image: url(/images/bg-header-mobile.png);
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+
+    header .container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 26px;
+    }
+
+     header .container > h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+     }
+
+    h1, h2, h3 {
+        color: hsl(210, 10%, 33%);
+        font-weight: bold;
+    }
+
+    p {
+        color: hsl(201, 11%, 66%);
+    }
+
+    .buttons {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons > input {
+        width: 300px;
+        margin-top: 21px;
+        padding: 15px 0;
+        font-family: "Bai Jamjuree";
+        color: #fff;
+        border-style: none;
+        border-radius: 36px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+#iOSButton {
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 5px 10px 10px hsl(171, 74%, 85%);
+}
+
+#macButton {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.section2 {
+    margin-top: 140px;
+
+}
