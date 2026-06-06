@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="styles.css">
   
   <title>Frontend Mentor | Clipboard landing page</title>
@@ -46,6 +47,7 @@
 
     <img src="images/image-computer.png" alt="computer image">
     
+  <div class="listitems">
     <div class="listItem">
   <h3>Quick Search</h3>
 
@@ -63,21 +65,22 @@
 
  <P>Retrieve any snippets from the first moment you started using the app.</P> 
  </div>
+</div>
   </div>
   </section>
 
-  <section>
+  <section class="section3">
     <div class="container">
-  <h2>Access Clipboard anywhere</h2>
+  <h2>Access Clipboard Anywhere</h2>
 
   <p>Whether you’re on the go, or at your computer, you can access all your Clipboard 
   snippets in a few simple clicks.</p>
 
   </div>
-  <img src="/images/image-devices.png" alt="">
+  <img src="/images/image-devices.png" alt="image-devices">
   </section>
 
-  <section>
+  <section class="section4">
     <div class="container">
   <h2>Supercharge your workflow</h2>
 
@@ -86,18 +89,21 @@
 
   <div class="cards">
     <div class="card">
+      <img src="/images/icon-blacklist.svg" alt="icon-blacklist">
   <h3>Create blacklists</h3>
 
   <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
   </div>
 
   <div class="card">
+    <img src="images/icon-text.svg" alt="icon-text">
  <h3>Plain text snippets</h3> 
 
  <p>Remove unwanted formatting from copied text for a consistent look.</p> 
   </div>
 
   <div class="card">
+     <img src="images/icon-preview.svg" alt="icon-preview">
   <h3>Sneak preview</h3>
 
   <p>Quick preview of all snippets on your Clipboard for easy access.</p>
@@ -117,7 +123,7 @@
 
   </section>
 
-  <section>
+  <section class="section5">
     <div class="container">
   <h2>Clipboard for iOS and Mac OS</h2>
 
@@ -132,25 +138,36 @@
   </section>
 
 <footer class="footer">
-  <img src="images/logo.svg" alt="logo">
-<ul>
+  <div class="footerContainer">
+  <img id="footerLogo" src="images/logo.svg" alt="logo">
+
+<div class="footerLinks">
+  <div>
  <li><a href=""> FAQs</a></li>
   <li><a href="">Contact Us</a></li>
+  </div>
+  <div>
   <li><a href="">Privacy Policy</a></li>
- <li><a href="">Press Ki</a>t</li> 
-  <li><a href="">Install Guide</a></li>
-  </ul>
+ <li><a href="">Press Kit</a></li> 
+ </div>
+ <div>
+  <li id="InstallGuide"><a href="">Install Guide</a></li>
+
+  </div>
+</div>
 
   <div class="footerSocials">
-    <img src="/images/icon-facebook.svg" alt="icon-facebook">
-    <img src="/images/icon-twitter.svg" alt="icon-twitter">
-    <img src="/images/icon-instagram.svg" alt="icon-instagram">
+   
+    <i class="fa-brands fa-square-facebook"></i>
+   <i class="fa-brands fa-twitter"></i>
+   <i class="fa-brands fa-instagram"></i>
+  </div>
   </div>
   </footer>
   
       <footer class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/ginikaifeanyi88-web">Ginika Okeke</a>.
     </footer>
 </body>
 </html>
