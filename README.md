@@ -49,6 +49,10 @@ Users should be able to:
 
 I also decided to get out of my comfort zone by learning flexbox and using the framework to design the ENTIRE page. It was an interesting experiment... but I think from now on I will use Grid for most layouts and flexbox only for specific use case like to center or move about elements within other elements. Relying on flexbox so much resulted in a pretty large and messy media query and me losing track of what CSS statements did what.
 
+A SMALL ADDENDUM:
+
+I decided to learn how to use the CSS transition and and transform properties to enlarge the download buttons upon being hovered over after deploying the website. Came out great!
+
 ### Continued development
 
 I want to learn how to combine CSS Grid, Flexbox and vanilla CSS to create appealing web design. In fact, that is going to be my main objective in my next and final project before I learn learning JavaScript.
