@@ -70,6 +70,7 @@
     border-right: 0;
     border-top: 0;
     border-style: outset;
+    transition: transform .2s; 
 }
 
 #macButton {
@@ -81,7 +82,25 @@
     border-right: 0;
     border-top: 0;
     border-style: outset;
+    transition: transform .2s; 
+    transition: -ms-transform .2s;
+    transition: -webkit-transform .2s;;
 }
+
+#iOSButton:hover {
+     
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+#macButton:hover {
+     
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
 
 
 .section2 {
